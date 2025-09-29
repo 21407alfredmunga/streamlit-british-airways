@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+DATA_DIR = Path(__file__).resolve().parent / "data"
 
 @st.cache_resource
 def load_analyzer():
